@@ -33,7 +33,6 @@
     position: absolute;
     top: 8px;
     right: 16px;
-    background: rgba(255, 72, 26, 0.176);
   }
   
   li {
@@ -91,7 +90,7 @@
     clear: both;
     position: relative;
     display: block;
-    margin-left: 38%;
+    margin-left: 42%;
     margin-right: auto;
     margin-bottom: 50px;
     font-size: 60;
@@ -127,11 +126,113 @@
   .txtContato{
     clear: both;
     position: absolute;
-    margin-top: 230px;
-    top: 50%;
+    top: 38%;
     left: 50%;
+    margin-top: 240px;
     transform: translate(-50%, -50%);
     font-size: 50;
     color: white;
   }
+
+  .txtNome{
+    position: absolute;
+    text-align: left;
+    margin-top: 250px;
+    top: 50px;
+    left: 10%;
+    width: 500px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    background: white;
+    color: grey;
+    font-size: 30;
+}
+
+.txtTelefone{
+    position: absolute;
+    text-align: left;
+    margin-top: 250px;
+    top: 150px;
+    left: 10%;
+    width: 500px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    background: white;
+    color: grey;
+    font-size: 30;
+}
+
+.txtEmail{
+    position: absolute;
+    text-align: left;
+    margin-top: 250px;
+    top: 250px;
+    left: 10%;
+    width: 500px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    background: white;
+    color: grey;
+    font-size: 30;
+}
+  
+.txtMensagem{
+    position: absolute;
+    text-align: left;
+    margin-top: 250px;
+    top: 50px;
+    left: 50%;
+    width: 600px;
+    height: 240px;
+    padding: 10px;
+    border-radius: 10px;
+    background: white;
+    color: grey;
+    font-size: 30;
+}
+
+.txtEnviar{
+    position: absolute;
+    margin-top: 250px;
+    top: 360px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30;
+    color: white;
+    padding: 20px;
+    background: rgb(255, 71, 26);
+    border-radius: 10px;
+
+}
+
+.txtLocal, .txtEmail2, .txtTelefone2{
+    float: left;
+    margin-left: 1%;
+    margin-top: 45px;
+}
+
+.finalDiv{
+    clear: left;
+    border-top: 1px solid black ;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100px;
+}
+
+.txtCopyright{
+    float: left;
+    margin-left: 5%;
+    margin-right: 30%;
+    margin-top: 30px;
+}
+
+.txtFacebook, .txtInstagram, .txtTwitter{
+    float: left;
+    margin-left: 1%;
+    margin-top: 30px;
+}
+
   
